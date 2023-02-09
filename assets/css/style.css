@@ -212,3 +212,21 @@
     }
 
 }
+@media(max-width:400px){
+.intro-img img{
+    display: none;
+}
+
+body .main-content h2,.grid h3 grid-counter {
+    font-size: 3rem;
+}
+body .main-content p{
+    font-size: 1rem;
+}
+body .main-content h3{
+    font-size: 2rem;
+}
+body .main-content{
+    max-width: 100vh;
+}
+}
